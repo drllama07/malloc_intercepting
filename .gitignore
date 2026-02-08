@@ -3,3 +3,4 @@
 *.dylib
 *.o
 main
+libget_malloc.so
