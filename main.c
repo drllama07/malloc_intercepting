@@ -5,10 +5,10 @@
 
 int main() {
  
-	for(size_t i = 1; i < 100; i++) {
+	for(size_t i = 1; i < 101; i++) {
 		void *p = malloc(i);
 		printf("Allocating  %zu bytes\n", i);
 	        free(p);
 
-       }
+        }
 }
