@@ -27,3 +27,6 @@ Compile the test program:
 1. ```clang -L. -Wl,-rpath=. -o main main.c```
 Run it with the interceptor:
 2. ```LD_PRELOAD=./libget_malloc.so ./main```
+
+### Credits: 
+- I used this great tutorial on getting started with interposing malloc: https://nvankempen.com/2025/06/04/guide-using-dynamic-loader-interpose-malloc.html
